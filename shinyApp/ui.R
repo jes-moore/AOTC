@@ -1,16 +1,12 @@
+
 library(data.table)
 library(quantmod)
 library(ggplot2)
 library(dplyr)
-library(grid)
-library(TTR)
-library(scales)
 library(lubridate)
 library(shiny)
 library(DT)
-library(ggvis)
 library(dygraphs)
-library(rCharts)
 library(curl)
 # ui.R
 shinyUI(navbarPage(

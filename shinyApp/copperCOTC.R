@@ -1,4 +1,3 @@
-library(rCharts)
 library(quantmod)
 library(plyr)
 library(lubridate)
