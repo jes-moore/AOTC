@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "library(OECD)\ndataset_list <- get_datasets()\nsearch_dataset(\"composite\", data = dataset_list)\ndataset <- 'MEI_CLI'\nfilterList = \"CSCICP03.USA+EA19+CHN.M/all?startTime=2005-05&endTime=2017-12&dimensionAtObservation=allDimensions&pid=f02522ad-a645-4ac6-9a76-3f70fc17bf5c\"\ndf <- get_dataset(dataset = dataset, filter= filterList)[,c(7,2,8)]\ndf$obsTime <- as.Date(paste(df$obsTime,\"-01\",sep = \"\"),format=\"%Y-%m-%d\")\n\n",
+    "created" : 1495359022075.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "116353996",
+    "id" : "1C63969D",
+    "lastKnownWriteTime" : 1495361312,
+    "last_content_update" : 1495361312743,
+    "path" : "~/Desktop/Copper/compositeLeadingInd.R",
+    "project_path" : null,
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

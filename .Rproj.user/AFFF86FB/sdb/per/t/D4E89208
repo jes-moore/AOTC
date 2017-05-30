@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1495909497141.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "D4E89208",
+    "lastKnownWriteTime" : 3543549161866934272,
+    "last_content_update" : 1495909497141,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "7F71BBDE",
+        "caption" : "oilImports",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=oilImports&cache_key=7F71BBDE",
+        "displayedObservations" : "811",
+        "environment" : "",
+        "object" : "oilImports",
+        "preview" : "0",
+        "totalObservations" : "811",
+        "variables" : "2"
+    },
+    "relative_order" : 9,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

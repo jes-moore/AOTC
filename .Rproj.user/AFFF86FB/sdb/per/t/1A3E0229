@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1496126545576.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "1A3E0229",
+    "lastKnownWriteTime" : 4784304896,
+    "last_content_update" : 1496126545576,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "CE032AF1",
+        "caption" : "oilImportsAvg",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=oilImportsAvg&cache_key=CE032AF1",
+        "displayedObservations" : 811,
+        "environment" : "",
+        "object" : "oilImportsAvg",
+        "preview" : 0,
+        "totalObservations" : 811,
+        "variables" : 3
+    },
+    "relative_order" : 8,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}
