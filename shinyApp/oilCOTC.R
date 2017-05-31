@@ -3,8 +3,6 @@ library(quantmod)
 library(plyr)
 library(lubridate)
 library(Quandl)
-library(ggplot2)
-library(scales)
 library(dygraphs)
 library(htmlwidgets)
 
