@@ -12,6 +12,14 @@ library(curl)
 shinyUI(navbarPage(
         title = "AOTC",
         tabPanel(
+                title = "Markets",
+                value = "mk",
+                bootstrapPage(mainPanel(
+                        width = 12
+                )#Close Markets mainPanel
+                )##Close Markets bootstrapPage
+        ),##Close Markets tabPanel
+        tabPanel(
                 title = "Technical Analysis",
                 value = "TA",
                 sidebarLayout(
@@ -79,13 +87,15 @@ shinyUI(navbarPage(
 
                         ),
                         mainPanel(tabsetPanel(type = "tabs", id = "tab",
-                                tabPanel("Candlestick",value = 1,
-                                         dygraphOutput('candlestick', width ='100%')),
-                                tabPanel("Candlestick",value = 2)
-                                )#Close tabsetPanel
-                        )##Close Mainpanel
-                )##Close Sidebar Layout
-        ),
+                                              tabPanel("Stocks",value = 1,
+                                                       div(style = "padding-top: 5px; padding-bottom: 5px; border-top: 1px solid silver; border-bottom: 1px solid silver;",
+                                                           dygraphOutput('candlestick', width ='100%')
+                                                           )
+                                                       )
+                                              )#Close tabsetPanel
+                                  )##Close Mainpanel
+                        )##Close Sidebar Layout
+                ),
         #Close tabPanel
         tabPanel(
                 title = "Copper",
