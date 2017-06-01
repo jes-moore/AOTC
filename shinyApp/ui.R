@@ -12,8 +12,8 @@ library(curl)
 shinyUI(navbarPage(
         title = "AOTC",
         tabPanel(
-                title = "Markets",
-                value = "mk",
+                title = "Fundamental Analysis",
+                value = "FA",
                 bootstrapPage(mainPanel(
                         width = 12
                 )#Close Markets mainPanel
